@@ -3,24 +3,27 @@
   box-sizing: border-box; }
 
 body {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #878787;
   color: #878787;
   margin: 0;
-  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h1,
 h2 {
-  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif; }
+  font-family: "Abolition Regular", Helvetica, Arial, sans-serif; }
 
 h2 {
   font-size: 3.3125em;
-  font-weight: normal;
   line-height: 1.1;
+  font-weight: normal;
   margin: 0 0 .5em; }
 
 h3 {
   font-size: 1.25em;
-  color: #48525c;
   line-height: 1.2;
+  color: #48525c;
   margin-bottom: 1.7em; }
 
 img {
@@ -68,7 +71,7 @@ a:hover {
   border-bottom: 2px solid #dfe2e6; }
 
 .wildlife {
-  color: white;
+  color: #fff;
   text-align: left;
   padding: 18% 24%;
   border-top: 10px solid #ffa949;
@@ -107,9 +110,9 @@ a:hover {
 
 /* Web Fonts -------------------- */
 @font-face {
-  font-family: 'Abolition Regular';
-  src: url("../fonts/abolition-regular-webfont.eot");
-  src: url("../fonts/abolition-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/abolition-regular-webfont.woff") format("woff"), url("../fonts/abolition-regular-webfont.ttf") format("truetype"); }
+  font-family: "Abolition Regular";
+  src: url("path-font/file-regular-webfont.eot");
+  src: url("path-font/file-regular-webfont.eot?#iefix") format("embedded-opentype"), url("path-font/file-regular-webfont.woff") format("woff"), url("path-font/file-regular-webfont.ttf") format("truetype"); }
 .main-heading {
   font-size: 5.625rem;
   color: white;
@@ -119,7 +122,7 @@ a:hover {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
   margin: 12px 0 0; }
 .main-title {
-  color: white;
+  color: #fff;
   font-size: 1.625rem;
   letter-spacing: .065em;
   font-weight: 200;
