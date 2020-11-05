@@ -6,7 +6,6 @@
   
 body {
   @include text(1em, 1.5, $color: $color-text-base);
-  color: $color-text-base;
   margin: 0;
   font-family: $stack-helvetica;
 }
@@ -43,9 +42,6 @@ li {
 
 /* Pseudo-classes ------------------ */
 a {
-  &:active {
-    color: lightcoral;
-  }
   &:link {
     color: $color-link-default;
     text-decoration: none;
